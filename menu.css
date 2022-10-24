@@ -194,8 +194,8 @@ nav {
         border-radius: 1rem 1rem 0rem 0rem;
         text-align: center;
         background-image: url("menuBackground.webp");
-        padding: 15rem 0rem;
-        font-size: 5rem;
+        padding: 5rem 0rem;
+        font-size: 3rem;
         color: white;
         text-shadow: .2rem .2rem black;
     }
