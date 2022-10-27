@@ -73,87 +73,79 @@ nav {
     background-color: black;
 
 }
-
-
-.intro{
+.intro {
     background-color: rgb(84, 212, 62);
     padding: 15rem;
     text-align: center;
-    
+
     color: white;
 
 }
-.intro h1{
+
+.intro h1 {
     margin: 1rem 0rem;
     font-size: 5rem;
-    font-weight:900;
+    font-weight: 900;
 }
-.intro h2{
+
+.intro h2 {
 
     font-size: 3rem;
     font-weight: 700;
 }
-.ourPlace{
-    background-color: whitesmoke;
+.location1{
+    display: flex;
+    background-color: rgba(195, 195, 195, 0.447);
+    height: 45rem;
+}
+.location1 img{
+    height: 45rem;
+    
+
+}
+.text{
+    
     text-align: center;
-    padding: 7rem 0rem 10rem 0rem;
+    padding: 18rem 20rem;
 }
-.ourPlace h2{
-    font-size: 4rem;
-}
-.ourPlace h3{
+.text h1{
     font-size: 2rem;
-    margin-bottom: 3rem;
 }
-.ourPlace p{
-    align-items: center;
-    font-size: 2rem;
-    padding: 1rem 40rem;
+.text h2{
+    padding-top: 2rem;
+    font-size: 1.5rem;
+}
+.text p{
+    margin: .5rem;
+    font-size: 1.5rem;
 }
 .breakImg{
-    background-image: url("aboutimg.webp");
-    background-size: cover;
-    padding: 30rem;
-}
-.ourMission{
+    background-color: rgb(84, 212, 62);
+    padding: 15rem;
     text-align: center;
-    padding: 10rem 0rem 15rem 0rem;
+    color: white;
 }
-.ourMission h1{
-    font-size: 4rem;
+.breakImg h1 {
+    margin: 1rem 0rem;
+    font-size: 5rem;
+    font-weight: 900;
+}
 
+.breakImg h2 {
+
+    font-size: 3rem;
+    font-weight: 700;
 }
-.ourMission h2{
-    font-size: 2rem;
-}
-.ourMission p{
-    padding: 2rem 40rem;
-    font-size: 2rem;
-}
-footer{
-    background-color: black;
-    padding: 10rem;
-}
-.socialMedia{
+
+
+
+.location2{
+    height: 45rem;
     display: flex;
-    justify-content: space-evenly;
-    color: white;
 }
-.socialMedia a{
-    text-decoration: none;
-    color: white;
-    font-size: 2rem;
+.location2 img{
+    height: 45rem;
 }
-.socialMedia a:hover{
-    color: rgb(84, 212, 62);
-} 
-
-
-
-
-
-
-
 
 
 
@@ -227,101 +219,90 @@ footer{
         align-items: center;
         transition: .2s ease-in-out;
     }
-       
 
 
-.intro {
-    background-color: rgb(84, 212, 62);
-    padding: 5rem;
-    text-align: center;
 
-    color: white;
 
-}
-
-.intro h1 {
-    margin: 1rem 0rem;
-    font-size: 4rem;
-    font-weight: 900;
-}
-
-.intro h2 {
-
-    font-size: 3rem;
-    font-weight: 700;
-}
-
-.ourPlace {
-    background-color: whitesmoke;
-    text-align: center;
-    padding: 7rem 0rem 10rem 0rem;
-}
-
-.ourPlace h2 {
-    font-size: 4rem;
-}
-
-.ourPlace h3 {
-    font-size: 2rem;
-    margin-bottom: 3rem;
-}
-
-.ourPlace p {
-    align-items: center;
-    font-size: 2rem;
-    padding: 1rem 5rem;
-}
-
-.breakImg {
-    background-image: url("aboutimg.webp");
-    background-size: cover;
-    padding: 15rem 5rem;
-}
-
-.ourMission {
-    text-align: center;
-    padding: 10rem 0rem 15rem 0rem;
-}
-
-.ourMission h1 {
-    font-size: 4rem;
-    padding: 1rem 4rem;
-}
-
-.ourMission h2 {
-    font-size: 2rem;
-    padding: 1rem 4rem;
-}
-
-.ourMission p {
-    padding: 2rem 5rem;
-    font-size: 2rem;
-}
-
-footer {
-    background-color: black;
-    padding: 10rem 3rem;
+        .intro {
+            background-color: rgb(84, 212, 62);
+            padding: 10rem;
+            text-align: center;
+    
+            color: white;
+    
+        }
+ 
+        .intro h1 {
+            margin: 1rem 0rem;
+            font-size: 3rem;
+            font-weight: 900;
+        }
+    
+        .intro h2 {
+    
+            font-size: 2rem;
+            font-weight: 700;
+        }
+    
+        .location1 {
+            display: flex;
+            flex-direction: column;
+            background-color: rgba(195, 195, 195, 0.447);
+            
+        }
+    
+        .location1 img{
+            height: 45rem;
+        }
+    
+        .text {
+            
+            text-align: center;
+            padding: 5rem 10rem;
+        }
+    
+        .text h1 {
+            font-size: 2rem;
+        }
+    
+        .text h2 {
+            padding-top: 2rem;
+            font-size: 1.5rem;
+        }
+    
+        .text p {
+            margin: .5rem;
+            font-size: 1.5rem;
+        }
+    
+        .breakImg {
+            background-color: rgb(84, 212, 62);
+            padding: 10rem;
+            text-align: center;
+            color: white;
+        }
+    
+        .breakImg h1 {
+            margin: 1rem 0rem;
+            font-size: 3rem;
+            font-weight: 900;
+            font-weight: 900;
+        }
+    
+        .breakImg h2 {
+    
+            font-size: 2rem;
+            font-weight: 700;
+        }
     
     
-
-}
-
-.socialMedia {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    color: white;
-    text-align: center;
-}
-
-.socialMedia a {
-    text-decoration: none;
-    color: white;
-    font-size: 2rem;
-}
-
-.socialMedia a:hover {
-    color: rgb(84, 212, 62);
-}
-
+    
+        .location2 {
+           display: flex;
+           flex-direction: column;
+        }
+    
+        .location2 img {
+            height: 45rem;
+        }
 }
